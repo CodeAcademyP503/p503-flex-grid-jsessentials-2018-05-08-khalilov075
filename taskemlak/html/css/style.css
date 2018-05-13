@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+   background: rgb(252, 250, 250);
+}
+header{
+    margin: 0px;
+    width: 1341px;
+    height: 50px;
+    background: gray;
+}
+header img{
+    margin-left: 190px;
+    margin-top: 4px;
+}
+ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 9px;
+    font-size: 15px;
+    display: inline-block;
+   
+}
+li{
+    float: left;
+    text-indent: 40px;
+     
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(217,107,17);
+    transition: all 0.4s;
+}
+.search{
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    margin-left: 20px;
+    
+}
+.search i{
+    background: rgb(179,179,179);
+    padding: 2px;
+    position: relative;
+    right: 4px;
+    color: white;
+    top: 2px;
+}
+.search input{
+    width: 65px;
+    position: relative;
+    border-radius: 3px;
+    
+}
+i:hover{
+    color: rgb(217,107,17);
+    transition: all 0.4s;
+}
+.search button{
+    width: 140px;
+    margin-left: 45px;
+    height: 35px;
+    position: relative;
+    color: white;
+    background: rgb(246,168,40);
+    border-radius: 11px;
+   
+    margin-top: -11px;
+}
+button:hover{
+    background: rgb(217,107,17);
+    transition: all 0.4s;
+}
+#select{
+    background: rgb(132,174,62);
+    width: 625px;
+    height: 195px;
+    margin-left: 185px;
+    margin-top: 20px;
+    border-radius: 6px;
+    float: left;
+}
+#select .col{
+    float: left;
+    width: 49%;
+    padding-top: 8px;
+}
+#select .col label{
+    height:  35px;
+   width: 290px;
+   display: block;
+   padding-top: 4px;
+   padding-left: 10px;
+   line-height: 35px;
+}
+#select .col span{
+    width: 100px;
+    height: 35px;
+    color: white;
+    display: inline-block;
+}
+#select .col select{
+    width: 180px;
+    height: 28px;
+    border-radius: 5px;
+}
+#select .col select option{
+    margin-left: 5px;
+}
+
+#select .colSecond{
+    display: inline-block;
+    width: 49%;
+    line-height: 35px;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+#search .colSecond label {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+}
+#select .colSecond select{
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+}
+#select .colSecond span{
+    width: 100px;
+    height: 35px;
+    color: white;
+    display: inline-block;
+}
+
+
+#select .under{
+    background: rgb(109,143,52);
+    height: 32px;
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+    margin-top: 15px;
+}
+
+.under label i{
+    margin-left: 140px;
+    margin-top: 7px;
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+}
+.under label{
+    margin-left: 14px;
+    color: white;
+}
+.under label button{
+  width: 22px;
+  height: 22px;
+  background: white;
+  border-radius: 5px;
+ 
+}
+.axtar{
+    float: right;
+    background: rgb(246,168,40);
+    height: 32px;
+    border: none;
+    width: 100px;
+    color: white;
+    border-radius: 0px 0px 6px 6px;
+}
+
+#signin{
+    width: 188px;
+   
+    display: inline-block;
+    margin-top: 21px;
+    height: 195px;
+}
+#signin .edit{
+    margin-left: 25px;
+}
+#signin .edit p{
+    color: black;
+    border: 1px solid rgb(132,174,62);
+    border-radius: 5px;
+    padding: -1px 10px 5px 10px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #949494;
+    font-size: 15px;
+    display: inline-block;
+}
+#signin .edit span{
+    background: rgb(132,174,62);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+}
+
+#vip{
+    width: 795px;
+    
+}
+
+#vip .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 178px;
+  }
+  .griditem {
+    width: 150px;
+    background: white;
+    margin: 5px;
+    border: 1px solid;
+  }
+  .griditem img {
+         width: 100%;
+         height: 100%;
+         margin-left: 0px;
+         margin-top: 0px;
+  }
+ 
+  .reklam{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 840px;
+    position: absolute;
+    top: 76px;
+    right: 160px;
+  }
+  p{
+    margin: 0;
+    font-size: 14px;
+    color: black;
+  }
+
+ 

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="">
+
+        <ul>
+            <li>
+                <a href="#">Ana sehife</a>
+            </li>
+            <li>
+                <a href="#">Axtaris</a>
+            </li>
+            <li>
+                <a href="#">Rieltor</a>
+            </li>
+            <li>
+                <a href="#">Faydali</a>
+            </li>
+            <li>
+                <a href="#">Elaqe</a>
+            </li>
+        </ul>
+
+        <div class="search">
+            <input type="text" placeholder="Elan N">
+            <i class="fas fa-search"></i>
+            <button>+ Elan ver</button>
+        </div>
+    </header>
+    <section id="select">
+        <div class="col">
+            <label>
+                <span>Əmlakın növü</span>
+                <select name="emlak" id="emlak">
+                    <option value="1">Bina ev menzil</option>
+                    <option value="2">Heyet evi / Villa</option>
+                    <option value="3">Torpaq sahesi</option>
+                    <option value="4">Obyekt</option>
+                    <option value="5">Ofis</option>
+                    <option value="6">Qaraj</option>
+                    <option value="7">Diger</option>
+                </select>
+            </label>
+            <label>
+                <span>Elanın növü</span>
+                <select name="elanNov" id="elanNov">
+                    <option value="1">Satilir</option>
+                    <option value="2">Kiraye ayliq</option>
+                    <option value="3">Kiraye gunluk</option>
+                </select>
+            </label>
+            <label>
+                <span>Seher</span>
+                <select name="city" id="city">
+                    <option value="1">Butun seherler</option>
+                    <option value="2">Baki</option>
+                    <option value="3">Abseron</option>
+                    <option value="4">Gence</option>
+                    <option value="5">Sabirabad</option>
+                    <option value="6">Lenkeran</option>
+                    <option value="7">Quba</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="colSecond">
+            <label>
+                <span>Qiymət</span>
+                <select name="price" id="price">
+                    <option value="0">Min</option>
+                    <option value="1">500</option>
+                    <option value="2">1000</option>
+                    <option value="3">1500</option>
+                    <option value="4">2000</option>
+                    <option value="5">2500</option>
+                </select>
+                <select name="price2" id="price2">
+                    <option value="0">Max</option>
+                    <option value="1">500</option>
+                    <option value="2">1000</option>
+                    <option value="3">1500</option>
+                    <option value="4">2000</option>
+                    <option value="5">2500</option>
+                </select>
+            </label>
+
+            <label>
+                <span>Mərtəbə</span>
+                <select name="floor" id="floor">
+                    <option value="0"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">4</option>
+                </select>
+                <select name="floor2" id="floor2">
+                    <option value="0"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+
+            <label>
+                <span>Otaq</span>
+                <select name="room" id="room">
+                    <option value="0"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">4</option>
+                </select>
+                <select name="room2" id="room2">
+                    <option value="0"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+
+
+            <label>
+                <span>Sahesi</span>
+                <select name="area" id="area">
+                    <option value="0">min</option>
+                    <option value="1">10</option>
+                    <option value="2">20</option>
+                    <option value="3">30</option>
+                    <option value="4">40</option>
+                    <option value="5">50</option>
+                </select>
+                <select name="area2" id="area2">
+                    <option value="0">max</option>
+                    <option value="1">10</option>
+                    <option value="2">20</option>
+                    <option value="3">30</option>
+                    <option value="4">40</option>
+                    <option value="5">50</option>
+                </select>
+            </label>
+
+
+        </div>
+        <div class="under">
+            <label for="advsearch">
+                <i class="fas fa-search">Ətraflı axtarış </i>
+            </label>
+
+            <label for="select">
+                <button> </button>
+                Yalnız şəkilli
+            </label>
+            <label for="select">
+                <button> </button>
+                Kredit
+            </label>
+
+            <button class="axtar">Axtar</button>
+        </div>
+
+    </section>
+
+    <section id="signin">
+        <div class="edit">
+            <span>İstifadəçi girişi</span>
+            <p>Elan verilmə qaydası</p>
+            <p> Elana düzəliş və silmək</p>
+            <p>Bakıda evlərin qiyməti</p>
+            <p> Ödənişli elan verilməsi</p>
+        </div>
+
+    </section>
+
+    <section id="vip">
+        <div class="grid-container">
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                <img src="images/image.jpg" alt="">
+                <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+            </div>
+            <div class="griditem">
+                    <img src="images/plus.png" alt="">
+                   
+                </div>
+
+        </div>
+    </section>
+
+ 
+    <div class="reklam">
+        <img src="images/instagram.jpg" alt="">
+        <img src="images/reklam.jpg" alt="">
+        <img src="images/reklam.jpg" alt="">
+        <img src="images/reklam.jpg" alt="">
+        <img src="images/reklam.jpg" alt="">
+        <img src="images/reklam.jpg" alt="">
+        <img src="images/reklam.jpg" alt="">
+        <img src="images/reklam.jpg" alt="">
+    </div>
+    <section id="vip">
+            <div class="grid-container">
+                <div class="griditem">
+                    <img src="images/image.jpg" alt="">
+                    <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+                </div>
+                <div class="griditem">
+                    <img src="images/image.jpg" alt="">
+                    <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+                </div>
+                <div class="griditem">
+                    <img src="images/image.jpg" alt="">
+                    <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+                </div>
+                <div class="griditem">
+                    <img src="images/image.jpg" alt="">
+                    <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+                </div>
+                <div class="griditem">
+                    <img src="images/image.jpg" alt="">
+                    <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+                </div>
+                <div class="griditem">
+                    <img src="images/image.jpg" alt="">
+                    <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+                </div>
+                <div class="griditem">
+                    <img src="images/image.jpg" alt="">
+                    <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+                </div>
+                <div class="griditem">
+                        <img src="images/image.jpg" alt="">
+                        <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+                    </div>
+                    <div class="griditem">
+                        <img src="images/image.jpg" alt="">
+                        <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+                    </div>
+                    <div class="griditem">
+                        <img src="images/image.jpg" alt="">
+                        <p>H.Əliyev pr. Birlik 7 mtk. Köhnə bazarın yanı. </p>
+                    </div>
+        
+                </div>
+            </section>
+
+      
+</body>
+
+</html>
